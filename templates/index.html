@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylesheets/app.css">
+    <title>Text Classification</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="static/sample_image.jpg" alt="Center Image">
+            <h1>Text Classification App</h1>
+            <form action="/classify" method="post">
+                <label for="text_input">Enter Text:</label>
+                <textarea name="text_input" id="text_input" rows="4" required></textarea>
+                <button type="submit">Classify</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
